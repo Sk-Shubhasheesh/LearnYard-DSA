@@ -66,4 +66,34 @@ Check if the first character of ans is '0' (i.e., the result is "000..."):
 In this case, it's not true since ans[0] = '9'.
 Return ans as it is.
 
+
+
+
+
+
+Compare 3 and 30:
+
+Result: 3 should come before 30.
+Array remains: [3, 30, 34, 5, 9]
+Compare 30 and 34:
+
+Result: 34 should come before 30.
+Swap 34 and 30.
+Array becomes: [3, 34, 30, 5, 9]
+Compare 3 and 34:
+
+Result: 34 should come before 3.
+Swap 34 and 3.
+Array becomes: [34, 3, 30, 5, 9]
+Compare 34 and 5:
+
+Result: 5 should come before 34.
+Swap 5 and 34.
+Array becomes: [5, 34, 3, 30, 9]
+Compare 5 and 9:
+
+Result: 9 should come before 5.
+Swap 9 and 5.
+Array becomes: [9, 5, 34, 3, 30]
+
 */
